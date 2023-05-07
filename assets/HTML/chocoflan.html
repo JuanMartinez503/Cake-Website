@@ -13,7 +13,7 @@
   <header>
     <nav class="navbar navbar-expand-lg bg-primary">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">Choco Flan</a>
+        <a class="navbar-brand text-white " href="#">Martinez Cakes</a>
         <button class="border-dark navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -29,44 +29,45 @@
         </div>
       </div>
     </nav>
-    <button class="btn btn-danger my-1" data-language="Spanish" id="language">English
+    <button class="btn btn-danger m-1" data-language="Spanish" id="language">English
     </button>
   </header>
   <main>
     <h1 class="text-center" style="font-size: 2rem;">Choco Flan</h1>
-    <ul><h2 style="font-size: 1.5rem;">Servicios</h2>
-        <li>Precio: $35</li>
-        <li>Sabores:
+    <ul><h2 id="services" style="font-size: 1.5rem;">Servicios</h2>
+        <li id="price">Precio: $35</li>
+        <li > <p id="flavor">Sabores:</p>
             <ul>
                 <li>Chocolate</li>
                 <li>Vanilla</li>
-                <li>Fresa</li>
-                <li>Cafe</li>
+                <li class="strawberry">Fresa</li>
+                <li id="coffee">Cafe</li>
                 <li>Mocha</li>
             </ul>
         </li>
-        <li>Fruta
+        <li><p id="fruit">Fruta:</p>
             <ul>
-                <li>Fresas</li>
-                <li>durasnos</li>
-                <li>Uvas</li>
-                <li>Y vas variedad</li>
+                <li class="strawberry">Fresas</li>
+                <li id="peach">durasnos</li>
+                <li id="grape">Uvas</li>
+                <li id="variety">Y vas variedad</li>
             
             </ul>
         </li>
     </ul>
   </main>
   <footer>
-    <div class="card">
-      <h5 class="card-header text-center">Contacto</h5>
-      <div class="card-body">
-        <h5 class="card-title">Tel: 812-827-4485</h5>
-        <p class="card-text">Si tiene preguntas o quiere poner una orden llameme o mandeme un mensaje de texto. </p>
+    <footer>
+      <div class="card">
+        <h5 class="card-header text-center" id="contact">Contacto</h5>
+        <div class="card-body">
+          <h5 class="card-title"><a href="tel:+1812-827-4485">Tel: 812-827-4485</a></h5>
+          <p class="card-text" id="order">Si tiene preguntas o quiere poner una orden llameme o mandeme un mensaje de texto. </p>
+        </div>
       </div>
-    </div>
-  </footer>
+    </footer>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
-  <script src="../JS/script.js"></script>
+  <script src="../JS/chocoflan.js"></script>
 </body>
 </html>

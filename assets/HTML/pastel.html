@@ -13,7 +13,7 @@
   <header>
     <nav class="navbar navbar-expand-lg bg-primary">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">Pastel</a>
+        <a class="navbar-brand text-white" href="#">Martinez Cakes</a>
         <button class="border-dark navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -29,45 +29,46 @@
         </div>
       </div>
     </nav>
-    <button class="btn btn-danger my-1" data-language="Spanish" id="language">English
+    <button class="btn btn-danger m-1" data-language="Spanish" id="language">English
     </button>
   </header>
   <main>
-    <h1 class="text-center" style="font-size: 2rem;">Pastel</h1>
-    <ul><h2 style="font-size: 1.5rem;">Servicios</h2>
-        <li>Precio: $30-100, y mas!</li>
-        <li>Mensajes y fotos personalisados</li>
-        <li>Sabores:
+    <h1 class="text-center" id="cake" style="font-size: 2rem;">Pastel</h1>
+    <ul><h2 style="font-size: 1.5rem;" id="services">Servicios</h2>
+        <li id="price">Precio: $30-100, y mas!</li>
+        <li id="messsge">Mensajes y fotos personalisados</li>
+        <li><p id="flavor">Sabores:</p>
             <ul>
                 <li>Chocolate</li>
                 <li>Vainilla</li>
-                <li>Fresas</li>
-                <li>Cafe</li>
+                <li class="strawberry">Fresas</li>
+                <li id="coffee">Cafe</li>
                 <li>Mocha</li>
             </ul>
         </li>
 
-        <li>Rellenos
+        <li><p id="filling">Rellenos:</p>
             <ul>
-                <li>Fresas</li>
-                <li>durasnos</li>
-                <li>Pina y Coco</li>
-                <li>Oreo y Nutella</li>
+                <li class="strawberry">Fresas</li>
+                <li>Durasnos</li>
+                <li id="pineapple">Pina y Coco</li>
+                <li id="oreo">Oreo y Nutella</li>
             </ul>
         </li>
     </ul>
   </main>
   <footer>
-    <div class="card">
-      <h5 class="card-header text-center">Contacto</h5>
-      <div class="card-body">
-        <h5 class="card-title">Tel: 812-827-4485</h5>
-        <p class="card-text">Si tiene preguntas o quiere poner una orden llameme o mandeme un mensaje de texto. </p>
+    <footer>
+      <div class="card">
+        <h5 class="card-header text-center" id="contact">Contacto</h5>
+        <div class="card-body">
+          <h5 class="card-title"><a href="tel:+1812-827-4485">Tel: 812-827-4485</a></h5>
+          <p class="card-text" id="order">Si tiene preguntas o quiere poner una orden llameme o mandeme un mensaje de texto. </p>
+        </div>
       </div>
-    </div>
-  </footer>
+    </footer>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
-  <script src="../JS/script.js"></script>
+  <script src="../JS/pastel.js"></script>
 </body>
 </html>

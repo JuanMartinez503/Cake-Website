@@ -8,6 +8,8 @@ const cupDef = document.getElementById('cupDef')
 const flanDef = document.getElementById('flanDef')
 const contact = document.getElementById('contact')
 const order = document.getElementById('order')
+const services = document.getElementById('services')
+const intro = document.getElementById('intro')
 
 languageBtn.addEventListener('click', ()=>{
     let language = languageBtn.dataset.language
@@ -25,6 +27,7 @@ languageBtn.addEventListener('click', ()=>{
         flanDef.innerText = 'Famous flan cake, very soft and creamy. It comes in a variety of flavors!'
         contact.innerText ='Contact'
         order.innerText = 'If you have a question or you would like to place an order, you can call or text me. Texting is preferred my English is not the best'
+        intro.innerText = 'Delicious cakes made from scratch and personalize to your liking!'
     }
     else{
         language =languageBtn.setAttribute('data-language','Spanish')
