@@ -11,7 +11,7 @@ const peach = document.getElementById("peach");
 const filling = document.getElementById("filling");
 const oreo = document.getElementById("oreo");
 const pineapple = document.getElementById("pineapple");
-const strawberry = document.querySelectorAll("strawberry");
+const strawberry = document.querySelectorAll(".strawberry");
 
 
 languageBtn.addEventListener("click", () => {
